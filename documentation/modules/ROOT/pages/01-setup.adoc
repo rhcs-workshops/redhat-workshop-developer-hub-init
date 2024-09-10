@@ -1,4 +1,4 @@
-= Setup
+= Instrucciones del laboratorio
 include::_attributes.adoc[]
 
 [#prerequisite]
