@@ -1,4 +1,4 @@
-= Welcome to Template Tutorial
+= Instrucciones del laboratorio
 :page-layout: home
 :!sectids:
 
