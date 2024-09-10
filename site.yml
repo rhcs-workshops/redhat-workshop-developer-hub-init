@@ -2,7 +2,7 @@ runtime:
   cache_dir: ./.cache/antora
 
 site:
-  title: "Red Hat Workshop - Developer Hub"
+  title: "Summit Connect Madrid - Developer Hub"
   url: https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init
   start_page: redhat-workshop-developer-hub-init::index.adoc
 
