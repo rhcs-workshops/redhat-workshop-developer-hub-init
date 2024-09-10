@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/01-instrucciones.html</loc>
-<lastmod>2024-09-10T15:15:39.063Z</lastmod>
+<loc>https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/01-golden-path.html</loc>
+<lastmod>2024-09-10T15:31:53.257Z</lastmod>
+</url>
+<url>
+<loc>https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/02-crear-aplicacion.html</loc>
+<lastmod>2024-09-10T15:31:53.257Z</lastmod>
+</url>
+<url>
+<loc>https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/03-ci.html</loc>
+<lastmod>2024-09-10T15:31:53.257Z</lastmod>
+</url>
+<url>
+<loc>https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/04-verificar-ci.html</loc>
+<lastmod>2024-09-10T15:31:53.257Z</lastmod>
+</url>
+<url>
+<loc>https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/05-dev-aplicacion.html</loc>
+<lastmod>2024-09-10T15:31:53.257Z</lastmod>
 </url>
 <url>
 <loc>https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/index.html</loc>
-<lastmod>2024-09-10T15:15:39.063Z</lastmod>
+<lastmod>2024-09-10T15:31:53.257Z</lastmod>
 </url>
 </urlset>
