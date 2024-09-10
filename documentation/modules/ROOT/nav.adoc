@@ -1,0 +1,4 @@
+* xref:01-instrucciones.adoc[Instrucciones del laboratorio]
+// ** xref:01-setup.adoc#prerequisite[Prerequisites]
+// ** xref:01-setup.adoc#minikube[Setup Minikube]
+
