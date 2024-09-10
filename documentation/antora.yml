@@ -1,5 +1,5 @@
 name: template-tutorial
-title: Red Hat Workshop - Developer Hub Initial
+title: Red Hat Workshop - Developer Hub
 version: master
 nav:
   - modules/ROOT/nav.adoc

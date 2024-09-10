@@ -1,4 +1,5 @@
-* xref:01-instrucciones.adoc[Instrucciones del laboratorio]
-// ** xref:01-setup.adoc#prerequisite[Prerequisites]
-// ** xref:01-setup.adoc#minikube[Setup Minikube]
-
+* xref:01-golden-path.adoc[Golden Path]
+* xref:02-crear-aplicacion.adoc[Crear aplicaión]
+* xref:03-ci.adoc[Continous Integration]
+* xref:04-verificar-ci.adoc[Verificar CI]
+* xref:05-dev-aplicacion.adoc[Probar aplicacion en desarrollo]

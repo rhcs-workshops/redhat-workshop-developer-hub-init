@@ -1,0 +1,4 @@
+= Ejecución de Golden Path Template
+include::_attributes.adoc[]
+
+TODO

@@ -1,4 +1,4 @@
-= Resumen
+= Instrucciones del laboratorio
 :page-layout: home
 :!sectids:
 
