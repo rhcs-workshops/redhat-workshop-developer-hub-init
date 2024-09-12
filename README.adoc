@@ -1,1 +1,13 @@
 # Developer Hub Init workshop
+
+To run locally the _dev_ environment, install the following npm package and start the npm server:
+
+1. Install the _gulp-cli_ package:
+```bash
+sudo npm install -g gulp-cli
+```
+
+2. Start the _dev_ environment:
+```bash
+gulp
+```
