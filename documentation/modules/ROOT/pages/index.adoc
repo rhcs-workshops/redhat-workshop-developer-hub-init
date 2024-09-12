@@ -1,5 +1,20 @@
-= Instrucciones del laboratorio
+= Introducción
 :page-layout: home
 :!sectids:
 
-TODO
+Golden Paths son un concepto básico y fundamental en las plataformas de desarrollo interno (Internal Developer Platform - IDP) bien diseñadas.
+
+La idea principal de este concepto es que la plataforma ofrece un modelo previamente diseñado y respaldado para crear e implementar un software en particular. Si un equipo puede trabajar en este modelo porque los requisitos así lo permiten, es entonces cuando se benefecia de este modelo previamente diseñado en su evolución hacia Producción sin necesidad de aprendizaje de los detalles de la tecnología que utiliza.
+
+Este enfoque acelera los casos de uso típicos del desarrollo de aplicaciones (onboarding de un nuevo miembro del equipo, onboarding de una nueva aplicación), y al mismo tiempo incorpora las best-practices que se han aprendido en el pasado. Cuanto más sofisticado sea este Golden Path, se adoptará más, proporcionará una mayor uniformidad de configuración y comportamiento de todas las aplicaciones que lo utilicen.
+
+Dicho esto, ¿qué es un Golden Path? Un Golden Path tendrá, como mínimo, los siguientes ingredientes:
+
+
+* Un repositorio que se puede utilizar como plantilla. Puede ser un simple _Hello World_, pero con las configuraciones básicas necesarias para que un desarrollador puede comenzar rápidamente con los IDEs de la compañía e incorporar las best-practices para el desarrollo del código de la aplicación.
+
+* Un pipeline que utilice el repositorio del desarrollador, construya, envíe y propague los artefactos entre los entornos hasta Producción. El pipeline tendrá todos los pasos necesarios por la organización para confíar plenamente en el código que se ha compilado y propagado entre los diferentes entornos.
+
+* Un conjunto de manifiestos declarativos para desplegar la aplicación. Pueden ser Helm charts, configuración de Kustomize, o cualquier otra forma de configuración descriptiva.
+
+* Incorpora observabilidad. Observabilidad (logs, trazas, métricas y alertas) es una capacidad fundamental que debe proporcionar la plataforma. Se debe definir exactamente qué observar en una aplicación específica como parte del manifiesto de implementación. Un Golden Path debe proporcionar valores predeterminados razonables para las configuraciones de observabilidad.
