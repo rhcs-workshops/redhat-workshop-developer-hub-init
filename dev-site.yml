@@ -3,8 +3,8 @@ runtime:
 
 site:
   title: "Summit Connect Madrid - Developer Hub"
-  url: https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init
-  start_page: redhat-workshop-developer-hub-init::index.adoc
+  url: http://localhost:3000/rhs-build-course/index.html
+  start_page: template-tutorial::index.adoc
 
 content:
   sources:
