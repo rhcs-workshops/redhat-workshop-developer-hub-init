@@ -1,4 +1,62 @@
-= Continuous Integration
+= Realizar cambio en GitLab para lanzar al CI
 include::_attributes.adoc[]
 
-TODO
+- Comencemos por modificar el repositorio de la aplicación haciendo clic en **View Source**.
+
+image::CI_1.png[]
+
+- Esto te llevará al repositorio de GitLab en una nueva pestaña.
+
+- Para completar la tarea, vas a realiza tres cosas:
+
+1. Actualizar el método Hello en la clase ExampleResource.java.class .
+
+2. Actualizar el test JUnit que verifica la salida de este método.
+
+3. Actualizar la documentación para reflejar el cambio.
+
+- En tu repositorio **my-quarkus-app**, expande las carpetas **src → main → java/org.redhat.janus**, y luego abre el archivo **ExampleResource.java**.
+
+- Pulsa en editar.
+
+image::CI_2.png[]
+
+- En la línea 14, sustituye el mensaje del método hello de "Hello RESTEasy" por "Hello from RHDH".
+
+image::CI_3.png[]
+
+- Vamos a actualizar la documentación con este cambio. Introduce el mensaje de commit "Update my-quarkus-app" y haz clic en el botón **Commit changes**.
+
+image::CI_4.png[]
+
+- A continuación, actualiza el test JUnit para este método.
+
+- Expande las carpetas **src → test/java/org.redhat.janus**, y abre el archivo **ExampleResourceTest.java**.
+
+- Pulsa en editar.
+
+- En la línea 18, cambia el texto "Hello RESTEasy" por "Hello from RHDH".
+
+image::CI_5.png[]
+
+- De nuevo, vamos a actualizar haciendo clic en el botón **Commit changes**.
+
+- Por último, vamos a actualizar la documentación con nuestros últimos cambios.
+
+- Desde el repositorio my-quarkus-app, despliega la carpeta docs y abre el archivo **Index.md**.
+
+image::CI_6.png[]
+
+- Pulsa en editar.
+
+- Al final del documento, añade el siguiente texto: "Release 1.0: Update to ExampleResource.hello() method to return 'Hello from RHDH'.".
+
+image::CI_7.png[]
+
+- Actualiza la documentación haciendo commit de nuevo. Haz clic en **Commit changes**.
+
+- Ahora has implementado con éxito tu cambio y actualizado la documentación mediante un commit.
+
+- Ese commit debería haber disparado la build pipeline para el componente my-quarkus-app a través del event trigger.
+
+- Vuelve a la pestaña RHDH Dashboard de tu navegador y selecciona la pestaña **CI** del menú superior.
