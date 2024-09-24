@@ -25,28 +25,28 @@ image::Choose_GPT.png[]
 
 - Modifica el *Name* con tu nombre y apellidos *en minuscula*
 
-> [!WARNING]  
+> [!WARNING]
 > Tu nombre y apellidos tiene que ser todo en minuscula
 
 - Mantén el resto de valores por defecto y haz clic en *Next* para continuar.
 
-image::GPT_form_1[]
+image::GPT_form_1.png[]
 
 - En el segundo formulario, elije Quay para el Image Registry
 
-image::GPT_form_2[]
+image::GPT_form_2.png[]
 
 - Mantén el resto de valores por defecto y haz clic en *Next* para continuar.
 
 - En el tercer y último formulario, verás valores predeterminados para el servidor Git que aloja el repositorio del código fuente de tu aplicación.
 
-image::GPT_form_3[]
+image::GPT_form_3.png[]
 
 - Mantén los valores por defecto y haz clic en *Review* para continuar.
 
 - Se te presentará un resumen. Ahora puedes revisar que todo esté en orden y luego hacer clic en el botón *Create*
 
-image::GPT_form_4[]
+image::GPT_form_4.png[]
 
 - Después de hacer clic en el botón Create, Red Hat Developer Hub utilizará la información que has proporcionado para iniciar el proceso de configuración según lo descrito en la GPT seleccionada.
 

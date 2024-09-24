@@ -1,5 +1,5 @@
 * xref:01-golden-path.adoc[Golden Path]
-* xref:02-crear-aplicacion.adoc[Crear aplicaión]
-* xref:03-ci.adoc[Continous Integration]
+* xref:02-crear-aplicacion.adoc[Crear aplicación]
+* xref:03-ci.adoc[Continous Integration (CI)]
 * xref:04-verificar-ci.adoc[Verificar CI]
-* xref:05-dev-aplicacion.adoc[Probar aplicacion en desarrollo]
+* xref:05-dev-aplicacion.adoc[Probar aplicación en desarrollo]
