@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Continuous Integration :: Summit Connect Madrid - Developer Hub</title>
+    <title>Realizar cambio en GitLab para lanzar al CI :: Summit Connect Madrid - Developer Hub</title>
     <link rel="canonical" href="https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/03-ci.html">
     <link rel="prev" href="02-crear-aplicacion.html">
     <link rel="next" href="04-verificar-ci.html">
@@ -123,9 +123,146 @@
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Continuous Integration</h1>
-<div class="paragraph">
-<p>TODO</p>
+<h1 class="page">Realizar cambio en GitLab para lanzar al CI</h1>
+<div class="ulist">
+<ul>
+<li>
+<p>Comencemos por modificar el repositorio de la aplicación haciendo clic en <strong>View Source</strong>.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/CI_1.png" alt="CI 1">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Esto te llevará al repositorio de GitLab en una nueva pestaña.</p>
+</li>
+<li>
+<p>Para completar la tarea, vas a realiza tres cosas:</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Actualizar el método Hello en la clase ExampleResource.java.class .</p>
+</li>
+<li>
+<p>Actualizar el test JUnit que verifica la salida de este método.</p>
+</li>
+<li>
+<p>Actualizar la documentación para reflejar el cambio.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>En tu repositorio <strong>my-quarkus-app</strong>, expande las carpetas <strong>src → main → java/org.redhat.janus</strong>, y luego abre el archivo <strong>ExampleResource.java</strong>.</p>
+</li>
+<li>
+<p>Pulsa en editar.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/CI_2.png" alt="CI 2">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>En la línea 14, sustituye el mensaje del método hello de "Hello RESTEasy" por "Hello from RHDH".</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/CI_3.png" alt="CI 3">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Vamos a actualizar la documentación con este cambio. Introduce el mensaje de commit "Update my-quarkus-app" y haz clic en el botón <strong>Commit changes</strong>.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/CI_4.png" alt="CI 4">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A continuación, actualiza el test JUnit para este método.</p>
+</li>
+<li>
+<p>Expande las carpetas <strong>src → test/java/org.redhat.janus</strong>, y abre el archivo <strong>ExampleResourceTest.java</strong>.</p>
+</li>
+<li>
+<p>Pulsa en editar.</p>
+</li>
+<li>
+<p>En la línea 18, cambia el texto "Hello RESTEasy" por "Hello from RHDH".</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/CI_5.png" alt="CI 5">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>De nuevo, vamos a actualizar haciendo clic en el botón <strong>Commit changes</strong>.</p>
+</li>
+<li>
+<p>Por último, vamos a actualizar la documentación con nuestros últimos cambios.</p>
+</li>
+<li>
+<p>Desde el repositorio my-quarkus-app, despliega la carpeta docs y abre el archivo <strong>Index.md</strong>.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/CI_6.png" alt="CI 6">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Pulsa en editar.</p>
+</li>
+<li>
+<p>Al final del documento, añade el siguiente texto: "Release 1.0: Update to ExampleResource.hello() method to return 'Hello from RHDH'.".</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/CI_7.png" alt="CI 7">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Actualiza la documentación haciendo commit de nuevo. Haz clic en <strong>Commit changes</strong>.</p>
+</li>
+<li>
+<p>Ahora has implementado con éxito tu cambio y actualizado la documentación mediante un commit.</p>
+</li>
+<li>
+<p>Ese commit debería haber disparado la build pipeline para el componente my-quarkus-app a través del event trigger.</p>
+</li>
+<li>
+<p>Vuelve a la pestaña RHDH Dashboard de tu navegador y selecciona la pestaña <strong>CI</strong> del menú superior.</p>
+</li>
+</ul>
 </div>
 <nav class="pagination">
   <span class="prev"><a href="02-crear-aplicacion.html" class="query-params-link">Crear aplicaión</a></span>
