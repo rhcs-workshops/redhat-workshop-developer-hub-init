@@ -3,8 +3,8 @@ runtime:
 
 site:
   title: "Summit Connect Madrid - Developer Hub"
-  url: https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init
-  start_page: redhat-workshop-developer-hub-init::index.adoc
+  url: http://localhost:3000/rhs-build-course/index.html
+  start_page: template-tutorial::index.adoc
 
 content:
   sources:
@@ -20,7 +20,7 @@ asciidoc:
     - ./lib/remote-include-processor.js
 ui:
   bundle:
-    url: https://github.com/atarazana/course-ui/releases/download/v0.1.12c/ui-bundle.zip #Change to make url parameters work EX: USER
+    url: https://github.com/redhat-developer-demos/rhd-tutorial-ui/releases/download/v0.1.10/ui-bundle.zip #Change to make url parameters work EX: USER
     snapshot: true
   supplemental_files:
     - path: ./supplemental-ui
