@@ -17,16 +17,16 @@ image::GPT_Flow.png[]
 
 - Se te mostrarán todas las GPT que el equipo de Ingeniería de la Plataforma ha configurado para ti.
 
-- Haz clic en el enlace *Choose* en la parte inferior derecha del recuadro "Securing a Quarkus Service Software Supply Chain" para seleccionar esta plantilla.
+- Haz clic en el enlace *Choose* en la parte inferior derecha del recuadro "Quarkus Service with ArgoCD and a Tekton Pipeline" para seleccionar esta plantilla.
 
 image::Choose_GPT.png[]
 
 - A continuación, se te pedirá que completes un formulario simple con información básica.
 
-- Modifica el *Name* con tu nombre y apellidos *en minuscula*
+- Modifica el *Name* con tu nombre y apellidos *en minúscula*
 
-> [!WARNING]
-> Tu nombre y apellidos tiene que ser todo en minuscula
+> [WARNING]
+> Tu nombre y apellidos tiene que ser todo en minúscula
 
 - Mantén el resto de valores por defecto y haz clic en *Next* para continuar.
 
