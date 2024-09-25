@@ -1,0 +1,26 @@
+= Explorar la nueva aplicación creada
+include::_attributes.adoc[]
+
+Tras hacer click en el enlace *Open Component in catalog*, accederás a la página que mostrará toda la información de tu aplicación previamente creada.
+
+En primer lugar, se mostrará la pestaña *Overview* en la cual verás:
+
+1. _Links_: Enlaces a IDEs.
+2. _About_: Breve información de la nueva aplicación, así como enlaces a tu repositorio en GitLab y a la documentación de la aplicación.
+3. _Merge requests statistics_: Estadísiticas de Git.
+4. _Deployment Summary_: Un resumen de los despliegues de la aplicación.
+
+Este último punto *Deployment Summary* es el importante ahora, ya que veremos si se han desplegado o no todos los componentes necesarios de nuestra aplicación.
+
+La información que se muestra en pantalla deberá ser parecida a la siguiente imagen:
+
+image::Explorar-app-1.png[]
+
+En este primer paso del laboratorio debemos esperar a que los componentes de construcción de la aplicación se desplieguen. Para ello, en la sección _Deployment Summary_ debemos esperar a que la aplicación de ArgoCD *my-quarkus-app-dev-build* esté en estado *Synced* y *Healthy*.
+
+image::Explorar-app-2.png[]
+
+> [NOTE]
+> El nombre de la aplicación será el nombre que has introducido previamente con el sufijo dev-build
+
+Una vez la aplicación de ArgoCD esté en *Healthy*, ve al siguiente paso *Continuous Integration (CI)*.

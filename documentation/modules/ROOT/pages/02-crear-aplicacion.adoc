@@ -1,4 +1,0 @@
-= Crear aplicación
-include::_attributes.adoc[]
-
-TODO
