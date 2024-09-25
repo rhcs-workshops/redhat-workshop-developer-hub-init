@@ -1,55 +1,54 @@
-= Lanzando tu primera Golden Path Template (GPT)
+= Desplegando tu primera Golden Path Template (GTP)
 include::_attributes.adoc[]
 
-- Como nuevo desarrollador, se te ha pedido crear un proyecto para implementar un servicio basado en Quarkus.
+- Como nuevo desarrollador, se te ha pedido crear un proyecto para implementar un servicio basado en el framework Quarkus.
 
-- Para hacerlo, vas a usar una Golden Path Template (GPT) preconfigurada, que agilizará tu proceso de incorporación al nuevo proyecto.
+- Para hacerlo, vas a usar una Golden Path Template (GPT) preconfigurada, que agilizará tu proceso de creación:
 
-1. La GPT creará dos repositorios en GitLab, uno para el código fuente de la aplicación y otro para los Manifiestos de Kubernetes.
+1. La GPT creará dos repositorios en GitLab, uno para el código fuente de la aplicación y otro para los Manifiestos de despliegue en OpenShift.
 
-2. El siguiente paso en la GPT instruirá a ArgoCD para crear una aplicación y todos los recursos especificados en los Manifiestos en el clúster de OpenShift de destino.
+2. La GPT definirá en Argo CD la aplicación y todos los recursos necesarios para su despliegue en el clúster de OpenShift destino.
 
-3. En este ejemplo, estamos utilizando Helm charts como entrada para desplegar con ArgoCD. Y un pipeline de CI en Tekton para compilar tu aplicación.
+3. En este ejemplo, estamos utilizando Helm charts como método para desplegar la aplicación con Argo CD. Y un pipeline de CI en Tekton para compilar, empaquetar y generar la imágen de la aplicación.
 
 image::GPT_Flow.png[]
 
-- Para lanzar la GPT, haz clic en *Crear* en el menú lateral.
+- Para lanzar la GPT, haz clic en la opción *Create...* en el menú lateral.
 
-- Se te mostrarán todas las GPT que el equipo de Ingeniería de la Plataforma ha configurado para ti.
+- Se te mostrarán todas las GPT que el equipo de Arquitecttura y Plataforma ha configurado para ti.
 
-- Haz clic en el enlace *Choose* en la parte inferior derecha del recuadro "Quarkus Service with ArgoCD and a Tekton Pipeline" para seleccionar esta plantilla.
+- Busca la GTP denominada **Quarkus Service with ArgoCD and a Tekton Pipeline** y haz click en el botón *Choose*, ubicado en la parte inferior derecha del recuadro.
 
 image::Choose_GPT.png[]
 
-- A continuación, se te pedirá que completes un formulario simple con información básica.
+- A continuación, se te pedirá que completes un formulario con la información necesaria para tu nueva aplicación.
 
-- Modifica el *Name* con tu nombre y apellidos *en minúscula*
+- Modifica el campo *Name* con tu nombre y apellidos *en minúscula* y usando el guión (`-`) como separador de espacios.
 
 > [WARNING]
-> Tu nombre y apellidos tiene que ser todo en minúscula
+> El valor del campo (tu nombre y apellidos) deben ser en minúscula y sin espacios.Uusa guión (`-`) como separador.
 
-- Mantén el resto de valores por defecto y haz clic en *Next* para continuar.
+- Mantén el resto de valores por defecto y haz clic en el botón *Next* para continuar.
 
 image::GPT_form_1.png[]
 
-- En el segundo formulario, elije Quay para el Image Registry
+- En el segundo formulario, selecciona `Quay` como servicio de Image Registry.
 
 image::GPT_form_2.png[]
 
-- Mantén el resto de valores por defecto y haz clic en *Next* para continuar.
+- Mantén el resto de valores por defecto y haz clic en el botón *Next* para continuar.
 
-- En el tercer y último formulario, verás valores predeterminados para el servidor Git que aloja el repositorio del código fuente de tu aplicación.
+- En el tercer y último formulario, verás valores predeterminados para el servidor GitLab que alojará los repositorios de código fuente y configuración de tu aplicación.
 
 image::GPT_form_3.png[]
 
-- Mantén los valores por defecto y haz clic en *Review* para continuar.
+- Mantén los valores por defecto y haz clic en el botón *Review* para continuar.
 
-- Se te presentará un resumen. Ahora puedes revisar que todo esté en orden y luego hacer clic en el botón *Create*
+- Se te presentará un resumen. Ahora puedes revisar que todo esté en orden y haz clic en el botón *Create*.
 
 image::GPT_form_4.png[]
 
-- Después de hacer clic en el botón Create, Red Hat Developer Hub utilizará la información que has proporcionado para iniciar el proceso de configuración según lo descrito en la GPT seleccionada.
-
-- También registrará tu aplicación en el Catálogo.
+- Red Hat Developer Hub utilizará la información que has proporcionado para iniciar el proceso de configuración según lo descrito en la GPT seleccionada, incluyendo las integraciones con los
+diferentes sistemas involucrados. Este proceso también registrará tu aplicación en el Catálogo de Red Hat Developer Hub.
 
 - Ahora, continúa haciendo clic en el enlace *Open Component in catalog*.

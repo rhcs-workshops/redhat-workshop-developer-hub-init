@@ -1,13 +1,11 @@
-= Verificar pipeline de CI
+= Verificando el pipeline
 include::_attributes.adoc[]
 
-- La pestaña CI te permite seguir el progreso de la build pipeline (proceso automatizado que compila, prueba y despliega aplicaciones desde el código fuente hasta producción) para el componente my-quarkus-app.
+- La pestaña CI te permite seguir el progreso de la build pipeline (proceso automatizado que compila, prueba y despliega aplicaciones desde el código fuente hasta producción) de la aplicación.
 
 image::CI_8.png[]
 
-- Observa cómo las medidas de seguridad están integradas en el proceso de compilación, de acuerdo con las políticas establecidas por el equipo de seguridad.
-
-- Estas medidas incluyen:
+- Observa cómo las medidas de seguridad están integradas en el proceso de compilación, de acuerdo con las políticas establecidas por el equipo de seguridad. Estas medidas incluyen:
 
 1. Análisis estático de código usando Sonarqube.
 
