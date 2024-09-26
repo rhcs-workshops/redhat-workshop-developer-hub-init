@@ -1,5 +1,8 @@
 # Developer Hub Init workshop
 
+This workshop is based on the Red Hat Demo Platform "Red Hat Developer Hub Demo" 
+https://demo.redhat.com/catalog?item=babylon-catalog-prod%2Fenterprise.red-hat-developer-hub-demo.prod
+
 To run locally the _dev_ environment, install the following npm package and start the npm server:
 
 1. Install the _gulp-cli_ package:
