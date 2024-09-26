@@ -26,7 +26,7 @@ image::Choose_GPT.png[]
 - Modifica el campo *Name* con tu nombre y apellidos *en minúscula* y usando el guión (`-`) como separador de espacios.
 
 > [WARNING]
-> El valor del campo (tu nombre y apellidos) deben ser en minúscula y sin espacios.Uusa guión (`-`) como separador.
+> El valor del campo (tu nombre y apellidos) deben ser en minúscula y sin espacios. Usa guión (`-`) como separador.
 
 - Mantén el resto de valores por defecto y haz clic en el botón *Next* para continuar.
 
