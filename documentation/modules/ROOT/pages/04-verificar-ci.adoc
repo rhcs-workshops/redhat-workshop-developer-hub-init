@@ -5,15 +5,11 @@ include::_attributes.adoc[]
 
 image::CI_8.png[]
 
-- Observa cómo las medidas de seguridad están integradas en el proceso de compilación, de acuerdo con las políticas establecidas por el equipo de seguridad. Estas medidas incluyen:
+- Podrás observar que se han ejecutado tres veces el pipeline de la aplicación. Ese es debido a cada uno de los cambios individuales realizados en el paso anterior. El primer de los cambios
+generó un pipeline que fallo, ¿por qué?. Seguro que habrás adivinado que se la unidad de pruebas no se habia adecuado a los nuevos cambios. Observaras que la segunda ejecución (unidad de pruebas actualizada)
+es satisfactoria, igual que la ultima correspondiente a los cambios de la documentación.
 
-1. Análisis estático de código usando Sonarqube.
-
-2. Verifica que el último commit, el cual activó la pipeline, está digitalmente firmado por una fuente de confianza.
-
-3. Generación de SBOM (Software Bill of Materials), para obtener información sobre la composición de la aplicación.
-
-4. Integración con ACS (Advanced Cluster Security) para escanear la imagen en busca de vulnerabilidades.
+- El resto de pasos se corresponden a la construcción de la imagen y la sincronización del despliegue.
 
 - Como desarrollador, no tienes que preocuparte de estos aspectos complejos.
 
