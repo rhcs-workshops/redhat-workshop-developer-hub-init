@@ -1,26 +1,26 @@
-= Explorar la nueva aplicación creada
+= Explorando la nueva aplicación creada
 include::_attributes.adoc[]
 
-Tras hacer click en el enlace *Open Component in catalog*, accederás a la página que mostrará toda la información de tu aplicación previamente creada.
+Tras hacer click en el enlace *Open Component in catalog*, accederás a la página de control (dashboard) de tu nueva aplicación.
 
-En primer lugar, se mostrará la pestaña *Overview* en la cual verás:
+En primer lugar, se mostrará la pestaña *Overview* en la cual verás los siguientes bloques:
 
-1. _Links_: Enlaces a IDEs.
-2. _About_: Breve información de la nueva aplicación, así como enlaces a tu repositorio en GitLab y a la documentación de la aplicación.
-3. _Merge requests statistics_: Estadísiticas de Git.
-4. _Deployment Summary_: Un resumen de los despliegues de la aplicación.
+* **_Links_**: Enlaces a los clouds IDEs preconfigurados para la aplicación.
+* **_About_**: Breve información de la nueva aplicación, así como enlaces a su repositorio en GitLab y documentación.
+* **_Merge requests statistics_**: Algunas metricas y estadísiticas de uso del repositorio Git de la aplicación.
+* **_Deployment summary_**: Un resumen de los despliegues de la aplicación.
 
-Este último punto *Deployment Summary* es el importante ahora, ya que veremos si se han desplegado o no todos los componentes necesarios de nuestra aplicación.
+Este último punto (*Deployment summary*) es el importante ahora, ya que veremos si se han desplegado o no todos los componentes necesarios de nuestra aplicación.
 
 La información que se muestra en pantalla deberá ser parecida a la siguiente imagen:
 
 image::Explorar-app-1.png[]
 
-En este primer paso del laboratorio debemos esperar a que los componentes de construcción de la aplicación se desplieguen. Para ello, en la sección _Deployment Summary_ debemos esperar a que la aplicación de ArgoCD *my-quarkus-app-dev-build* esté en estado *Synced* y *Healthy*.
+En este primer paso del laboratorio debemos esperar a que los componentes de construcción de la aplicación se desplieguen. Para ello, en la sección **Deployment summary** debemos esperar a que el estado de la aplicación *<TU-NOMBRE>-dev-build* en Argo CD esté *Synced* y *Healthy*.
 
 image::Explorar-app-2.png[]
 
 > [NOTE]
-> El nombre de la aplicación será el nombre que has introducido previamente con el sufijo dev-build
+> El nombre de la aplicación se corresponderá con tu nombre y apellidos que has introducido previamente con el sufijo `dev-build`
 
-Una vez la aplicación de ArgoCD esté en *Healthy*, ve al siguiente paso *Continuous Integration (CI)*.
+Una vez la aplicación de Argo CD esté en *Healthy*, puedes continuar al siguiente paso *Continuous Integration (CI)*.

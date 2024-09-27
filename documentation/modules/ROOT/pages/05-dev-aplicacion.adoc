@@ -1,29 +1,23 @@
-= Probar aplicacion en desarrollo
+= Probando la aplicacion
 include::_attributes.adoc[]
 
 - Cambia a la pestaña **Topology**, verás que el Pod está rodeado por un círculo azul, esto indica que se está ejecutando correctamente.
 
-- Para abrir la aplicación, haz clic en el icono que se encuentra en la esquina derecha del Pod.
-
-- Tu aplicación se abrirá en una nueva pestaña del navegador.
+- Para abrir la aplicación, haz clic en el icono que se encuentra en la esquina derecha del Pod. Tu aplicación se abrirá en una nueva pestaña del navegador.
 
 image:dev_1.png[]
 
-- Prueba el cambio que has implementado haciendo clic en el link "hello"; deberías ver que la API devuelve "Hello from RHDH" como se esperaba.
+- Prueba el cambio que has implementado haciendo clic en el link `hello`. El resultado de la API es `Hello from RHDH` como se esperaba.
 
 image::dev_2.png[]
 
-- Ahora, cambia a la pestaña **Overview**.
-
-- Aquí observarás que la aplicación está sincronizada y se encuentra en estado "healthy" en **ArgoCD**.
+- Ahora, cambia a la pestaña **Overview**. Aquí observarás que la aplicación está sincronizada y se encuentra en estado `healthy` en **Argo CD**.
 
 image::dev_3.png[]
 
-- Ve a la pestaña *Image Registry*.
+- Ve a la pestaña *Image Registry*, donde podrás ver el estado actual de las imágenes creadas para la aplicación.
 
-- El *Registry* debería contener las imágenes.
-
-- Puedes ver los resultados del escaneo de vulnerabilidades para la imagen taggeada como **latest** haciendo clic en el enlace que aparece en la columna **Security Scan**.
+- Puedes ver los resultados del escaneo de vulnerabilidades para la imagen identificada con el tag **`latest`** haciendo clic en el enlace que aparece en la columna **Security Scan**.
 
 image::dev_4.png[]
 
@@ -31,8 +25,8 @@ image::dev_4.png[]
 
 image::dev_5.png[]
 
-- Por último, cambia a la pestaña **Docs**.
-
-- Aquí puedes comprobar que la documentación ha sido actualizada con los cambios que has hecho.
+- Por último, cambia a la pestaña **Docs**, donde podrás comprobar que la documentación ha sido actualizada con los cambios que has hecho.
 
 image::dev_6.png[]
+
+- Enhorabuena, has sido capaz de terminar este laboratorio de introducción a Red Hat Developer Hub.
