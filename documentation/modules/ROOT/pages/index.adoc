@@ -2,16 +2,6 @@
 :page-layout: home
 :!sectids:
 
-Golden Paths, o Software Templates, son un concepto básico y fundamental en las plataformas de desarrollo interno (Internal Developer Platform - IDP) bien diseñadas.
+Esta demo es un ejemplo práctico de cómo un desarrollador, a través del catálogo de plantillas de software de Red Hat Developer Hub, lanza un proceso que crea los diferentes entornos de desarrollo y genera los repositorios del código fuente de la aplicación con los artefactos de CI/CD. 
 
-La idea principal de este concepto es que la plataforma ofrece un modelo previamente diseñado y respaldado para crear e implementar un software en particular.
-
-Un Golden Path tendrá, como mínimo, los siguientes ingredientes:
-
-* Un repositorio de código que se puede utilizar como plantilla.
-
-* Un pipeline que construye, empaquete, despliegue y propague los artefactos entre los entornos hasta producción.
-
-* Un conjunto de manifiestos declarativos para desplegar la aplicación en los entornos.
-
-* Integración de mecanismos de observabilidad de la aplicación con la platforma.
+Todo esto, sin tener que abrir ningún ticket y de forma autónoma. También se verán las capacidades que tiene Red Hat Developer Hub para trabajar con diferentes herramientas, como por ejemplo OpenShift, Quay, GitLab, ArgoCD o Tekton, de un modo centralizado.

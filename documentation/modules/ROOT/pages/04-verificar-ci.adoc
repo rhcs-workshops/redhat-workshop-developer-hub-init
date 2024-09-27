@@ -1,22 +1,20 @@
 = Verificando el pipeline
 include::_attributes.adoc[]
 
-- La pestaña CI te permite seguir el progreso de la build pipeline (proceso automatizado que compila, prueba y despliega aplicaciones desde el código fuente hasta producción) de la aplicación.
+- La pestaña CI te permite seguir el progreso de la construcción de la aplicación.
 
 image::CI_8.png[]
 
-- Podrás observar que se han ejecutado tres veces el pipeline de la aplicación. Ese es debido a cada uno de los cambios individuales realizados en el paso anterior. El primer de los cambios
-generó un pipeline que fallo, ¿por qué?. Seguro que habrás adivinado que se la unidad de pruebas no se habia adecuado a los nuevos cambios. Observaras que la segunda ejecución (unidad de pruebas actualizada)
-es satisfactoria, igual que la ultima correspondiente a los cambios de la documentación.
+- Podrás observar que se ha ejecutado el pipeline de la aplicación correspondiente a los cambios de la documentación realizados.
 
-- El resto de pasos se corresponden a la construcción de la imagen y la sincronización del despliegue.
+image::CI_10.png[]
+
+- Como puedes observar, el pipeline construye el artefacto, construye la imagen y la publica en Quay, y actualiza el despliegue de la aplicación.
 
 - Como desarrollador, no tienes que preocuparte de estos aspectos complejos.
 
-- Todos ellos están preparados mediante el Golden Path, lo que garantiza un proceso de desarrollo ágil y seguro.
-
-- De hecho, incluso podríamos sustituir Tekton por otra herramienta de CI, ¡y no tendrías que preocuparte por los detalles!
-
+- Todos ellos están preparados mediante el Software Template, lo que garantiza un proceso de desarrollo ágil y seguro.
+// - De hecho, incluso podríamos sustituir Tekton por otra herramienta de CI, ¡y no tendrías que preocuparte por los detalles!
 - Una vez completada la ejecución de la build pipeline, revisamos el estado de nuestra aplicación.
 
 image::CI_9.png[]
