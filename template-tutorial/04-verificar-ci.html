@@ -72,7 +72,7 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="01-golden-path.html">Golden Path</a>
+    <a class="nav-link" href="01-golden-path.html">Software Template</a>
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="02-explorar-aplicacion.html">Explorando la aplicación</a>
@@ -85,6 +85,9 @@
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="05-dev-aplicacion.html">Probando la aplicación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="06-bonus-track.html">Bonus Track</a>
   </li>
 </ul>
   </li>
@@ -127,7 +130,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>La pestaña CI te permite seguir el progreso de la build pipeline (proceso automatizado que compila, prueba y despliega aplicaciones desde el código fuente hasta producción) de la aplicación.</p>
+<p>La pestaña CI te permite seguir el progreso de la construcción de la aplicación.</p>
 </li>
 </ul>
 </div>
@@ -139,21 +142,25 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Podrás observar que se han ejecutado tres veces el pipeline de la aplicación. Ese es debido a cada uno de los cambios individuales realizados en el paso anterior. El primer de los cambios
-generó un pipeline que fallo, ¿por qué?. Seguro que habrás adivinado que se la unidad de pruebas no se habia adecuado a los nuevos cambios. Observaras que la segunda ejecución (unidad de pruebas actualizada)
-es satisfactoria, igual que la ultima correspondiente a los cambios de la documentación.</p>
+<p>Podrás observar que se ha ejecutado el pipeline de la aplicación correspondiente a los cambios de la documentación realizados.</p>
 </li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/CI_10.png" alt="CI 10">
+</div>
+</div>
+<div class="ulist">
+<ul>
 <li>
-<p>El resto de pasos se corresponden a la construcción de la imagen y la sincronización del despliegue.</p>
+<p>Como puedes observar, el pipeline construye el artefacto, construye la imagen y la publica en Quay, y actualiza el despliegue de la aplicación.</p>
 </li>
 <li>
 <p>Como desarrollador, no tienes que preocuparte de estos aspectos complejos.</p>
 </li>
 <li>
-<p>Todos ellos están preparados mediante el Golden Path, lo que garantiza un proceso de desarrollo ágil y seguro.</p>
-</li>
-<li>
-<p>De hecho, incluso podríamos sustituir Tekton por otra herramienta de CI, ¡y no tendrías que preocuparte por los detalles!</p>
+<p>Todos ellos están preparados mediante el Software Template, lo que garantiza un proceso de desarrollo ágil y seguro.</p>
 </li>
 <li>
 <p>Una vez completada la ejecución de la build pipeline, revisamos el estado de nuestra aplicación.</p>

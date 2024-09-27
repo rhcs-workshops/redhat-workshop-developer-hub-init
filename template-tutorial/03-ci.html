@@ -72,7 +72,7 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="01-golden-path.html">Golden Path</a>
+    <a class="nav-link" href="01-golden-path.html">Software Template</a>
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="02-explorar-aplicacion.html">Explorando la aplicación</a>
@@ -85,6 +85,9 @@
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="05-dev-aplicacion.html">Probando la aplicación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="06-bonus-track.html">Bonus Track</a>
   </li>
 </ul>
   </li>
@@ -124,10 +127,13 @@
   <div class="content">
 <article class="doc">
 <h1 class="page">Continuous Integration (CI) en acción</h1>
+<div class="paragraph">
+<p>Para construir la aplicación debemos hacer un cambio en el repositorio de código que desencadenará la ejecución del pipeline. Para ello, realizaremos un cambio en la documentación.</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Comencemos por modificar el repositorio de la aplicación haciendo clic en el enlace <strong>View Source</strong>.</p>
+<p>Comencemos por acceder al repositorio de la aplicación haciendo clic en el enlace <strong>View Source</strong>.</p>
 </li>
 </ul>
 </div>
@@ -140,88 +146,6 @@
 <ul>
 <li>
 <p>Esto te llevará al repositorio de código de la aplicación de GitLab en una nueva pestaña.</p>
-</li>
-<li>
-<p>Para completar la tarea, vas a realiza tres cosas:</p>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Actualizar el método <code>Hello</code> en la clase <code>ExampleResource.java</code>.</p>
-</li>
-<li>
-<p>Actualizar el test unitario (clase <code>ExampleResourceTest.java</code>) que verifica la salida de este método.</p>
-</li>
-<li>
-<p>Actualizar la documentación para reflejar el cambio.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>En tu repositorio de la aplicación expande las carpetas <strong>src → main → java/org.redhat.janus</strong>, y luego abre el archivo <strong><code>ExampleResource.java</code></strong>.</p>
-</li>
-<li>
-<p>Pulsa en editar.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/CI_2.png" alt="CI 2">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>En la línea 14, sustituye el mensaje del método hello de <code>Hello RESTEasy</code> por <code>Hello from RHDH</code>.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/CI_3.png" alt="CI 3">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Vamos a actualizar la documentación con este cambio. Introduce el mensaje de commit <code>Update my application</code> y haz clic en el botón <strong>Commit changes</strong>.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/CI_4.png" alt="CI 4">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>A continuación, actualiza el test unitario para este método.</p>
-</li>
-<li>
-<p>Expande las carpetas <strong>src → test/java/org.redhat.janus</strong>, y abre el archivo <strong><code>ExampleResourceTest.java</code></strong>.</p>
-</li>
-<li>
-<p>Pulsa en editar.</p>
-</li>
-<li>
-<p>En la línea 18, cambia el texto <code>Hello RESTEasy</code> por <code>Hello from RHDH</code>.</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/CI_5.png" alt="CI 5">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>De nuevo, vamos a actualizar haciendo clic en el botón <strong>Commit changes</strong>.</p>
-</li>
-<li>
-<p>Por último, vamos a actualizar la documentación con nuestros últimos cambios.</p>
 </li>
 <li>
 <p>Desde la raiz del repositorio, despliega la carpeta <code>docs</code> y abre el archivo <strong>index.md</strong>.</p>
@@ -239,7 +163,7 @@
 <p>Pulsa en editar.</p>
 </li>
 <li>
-<p>Al final del documento, añade el siguiente texto: <code>Release 1.0: Update to ExampleResource.hello() method to return 'Hello from RHDH</code>.</p>
+<p>Al final del documento, añade el siguiente texto: <code>Red Hat Summit Connect</code>.</p>
 </li>
 </ul>
 </div>
@@ -251,7 +175,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Actualiza la documentación haciendo commit de nuevo en el botón <strong>Commit changes</strong>.</p>
+<p>Actualiza la documentación haciendo click en el botón <strong>Commit changes</strong>.</p>
 </li>
 <li>
 <p>Ahora has implementado con éxito tu cambio y actualizado la documentación mediante un commit.</p>
