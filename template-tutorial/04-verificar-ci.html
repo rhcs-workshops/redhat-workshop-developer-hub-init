@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Verificar pipeline de CI :: Summit Connect Madrid - Developer Hub</title>
+    <title>Verificando el pipeline :: Summit Connect Madrid - Developer Hub</title>
     <link rel="canonical" href="https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/04-verificar-ci.html">
     <link rel="prev" href="03-ci.html">
     <link rel="next" href="05-dev-aplicacion.html">
@@ -75,16 +75,16 @@
     <a class="nav-link" href="01-golden-path.html">Golden Path</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="02-explorar-aplicacion.html">Explorar aplicación</a>
+    <a class="nav-link" href="02-explorar-aplicacion.html">Explorando la aplicación</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="03-ci.html">Continous Integration (CI)</a>
+    <a class="nav-link" href="03-ci.html">Continuous Integration (CI)</a>
   </li>
   <li class="nav-item is-current-page" data-depth="1">
-    <a class="nav-link" href="04-verificar-ci.html">Verificar CI</a>
+    <a class="nav-link" href="04-verificar-ci.html">Verificando CI</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="05-dev-aplicacion.html">Probar aplicación en desarrollo</a>
+    <a class="nav-link" href="05-dev-aplicacion.html">Probando la aplicación</a>
   </li>
 </ul>
   </li>
@@ -116,18 +116,18 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Summit Connect Madrid - Developer Hub</a></li>
-    <li><a href="04-verificar-ci.html">Verificar CI</a></li>
+    <li><a href="04-verificar-ci.html">Verificando CI</a></li>
   </ul>
 </nav>
   <div class="edit-this-page"><a href="https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/edit/master/documentation/modules/ROOT/pages/04-verificar-ci.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Verificar pipeline de CI</h1>
+<h1 class="page">Verificando el pipeline</h1>
 <div class="ulist">
 <ul>
 <li>
-<p>La pestaña CI te permite seguir el progreso de la build pipeline (proceso automatizado que compila, prueba y despliega aplicaciones desde el código fuente hasta producción) para el componente my-quarkus-app.</p>
+<p>La pestaña CI te permite seguir el progreso de la build pipeline (proceso automatizado que compila, prueba y despliega aplicaciones desde el código fuente hasta producción) de la aplicación.</p>
 </li>
 </ul>
 </div>
@@ -139,26 +139,12 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Observa cómo las medidas de seguridad están integradas en el proceso de compilación, de acuerdo con las políticas establecidas por el equipo de seguridad.</p>
+<p>Podrás observar que se han ejecutado tres veces el pipeline de la aplicación. Ese es debido a cada uno de los cambios individuales realizados en el paso anterior. El primer de los cambios
+generó un pipeline que fallo, ¿por qué?. Seguro que habrás adivinado que se la unidad de pruebas no se habia adecuado a los nuevos cambios. Observaras que la segunda ejecución (unidad de pruebas actualizada)
+es satisfactoria, igual que la ultima correspondiente a los cambios de la documentación.</p>
 </li>
 <li>
-<p>Estas medidas incluyen:</p>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Análisis estático de código usando Sonarqube.</p>
-</li>
-<li>
-<p>Verifica que el último commit, el cual activó la pipeline, está digitalmente firmado por una fuente de confianza.</p>
-</li>
-<li>
-<p>Generación de SBOM (Software Bill of Materials), para obtener información sobre la composición de la aplicación.</p>
-</li>
-<li>
-<p>Integración con ACS (Advanced Cluster Security) para escanear la imagen en busca de vulnerabilidades.</p>
-</li>
-</ol>
-</div>
+<p>El resto de pasos se corresponden a la construcción de la imagen y la sincronización del despliegue.</p>
 </li>
 <li>
 <p>Como desarrollador, no tienes que preocuparte de estos aspectos complejos.</p>
@@ -180,8 +166,8 @@
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="03-ci.html" class="query-params-link">Continous Integration (CI)</a></span>
-  <span class="next"><a href="05-dev-aplicacion.html" class="query-params-link">Probar aplicación en desarrollo</a></span>
+  <span class="prev"><a href="03-ci.html" class="query-params-link">Continuous Integration (CI)</a></span>
+  <span class="next"><a href="05-dev-aplicacion.html" class="query-params-link">Probando la aplicación</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">

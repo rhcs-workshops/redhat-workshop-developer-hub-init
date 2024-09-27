@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Explorar la nueva aplicación creada :: Summit Connect Madrid - Developer Hub</title>
+    <title>Explorando la nueva aplicación creada :: Summit Connect Madrid - Developer Hub</title>
     <link rel="canonical" href="https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/02-explorar-aplicacion.html">
     <link rel="prev" href="01-golden-path.html">
     <link rel="next" href="03-ci.html">
@@ -75,16 +75,16 @@
     <a class="nav-link" href="01-golden-path.html">Golden Path</a>
   </li>
   <li class="nav-item is-current-page" data-depth="1">
-    <a class="nav-link" href="02-explorar-aplicacion.html">Explorar aplicación</a>
+    <a class="nav-link" href="02-explorar-aplicacion.html">Explorando la aplicación</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="03-ci.html">Continous Integration (CI)</a>
+    <a class="nav-link" href="03-ci.html">Continuous Integration (CI)</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="04-verificar-ci.html">Verificar CI</a>
+    <a class="nav-link" href="04-verificar-ci.html">Verificando CI</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="05-dev-aplicacion.html">Probar aplicación en desarrollo</a>
+    <a class="nav-link" href="05-dev-aplicacion.html">Probando la aplicación</a>
   </li>
 </ul>
   </li>
@@ -116,38 +116,38 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Summit Connect Madrid - Developer Hub</a></li>
-    <li><a href="02-explorar-aplicacion.html">Explorar aplicación</a></li>
+    <li><a href="02-explorar-aplicacion.html">Explorando la aplicación</a></li>
   </ul>
 </nav>
   <div class="edit-this-page"><a href="https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/edit/master/documentation/modules/ROOT/pages/02-explorar-aplicacion.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Explorar la nueva aplicación creada</h1>
+<h1 class="page">Explorando la nueva aplicación creada</h1>
 <div class="paragraph">
-<p>Tras hacer click en el enlace <strong>Open Component in catalog</strong>, accederás a la página que mostrará toda la información de tu aplicación previamente creada.</p>
+<p>Tras hacer click en el enlace <strong>Open Component in catalog</strong>, accederás a la página de control (dashboard) de tu nueva aplicación.</p>
 </div>
 <div class="paragraph">
-<p>En primer lugar, se mostrará la pestaña <strong>Overview</strong> en la cual verás:</p>
+<p>En primer lugar, se mostrará la pestaña <strong>Overview</strong> en la cual verás los siguientes bloques:</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
-<p><em>Links</em>: Enlaces a IDEs.</p>
+<p><strong><em>Links</em></strong>: Enlaces a los clouds IDEs preconfigurados para la aplicación.</p>
 </li>
 <li>
-<p><em>About</em>: Breve información de la nueva aplicación, así como enlaces a tu repositorio en GitLab y a la documentación de la aplicación.</p>
+<p><strong><em>About</em></strong>: Breve información de la nueva aplicación, así como enlaces a su repositorio en GitLab y documentación.</p>
 </li>
 <li>
-<p><em>Merge requests statistics</em>: Estadísiticas de Git.</p>
+<p><strong><em>Merge requests statistics</em></strong>: Algunas metricas y estadísiticas de uso del repositorio Git de la aplicación.</p>
 </li>
 <li>
-<p><em>Deployment Summary</em>: Un resumen de los despliegues de la aplicación.</p>
+<p><strong><em>Deployment summary</em></strong>: Un resumen de los despliegues de la aplicación.</p>
 </li>
-</ol>
+</ul>
 </div>
 <div class="paragraph">
-<p>Este último punto <strong>Deployment Summary</strong> es el importante ahora, ya que veremos si se han desplegado o no todos los componentes necesarios de nuestra aplicación.</p>
+<p>Este último punto (<strong>Deployment summary</strong>) es el importante ahora, ya que veremos si se han desplegado o no todos los componentes necesarios de nuestra aplicación.</p>
 </div>
 <div class="paragraph">
 <p>La información que se muestra en pantalla deberá ser parecida a la siguiente imagen:</p>
@@ -158,7 +158,7 @@
 </div>
 </div>
 <div class="paragraph">
-<p>En este primer paso del laboratorio debemos esperar a que los componentes de construcción de la aplicación se desplieguen. Para ello, en la sección <em>Deployment Summary</em> debemos esperar a que la aplicación de ArgoCD <strong>my-quarkus-app-dev-build</strong> esté en estado <strong>Synced</strong> y <strong>Healthy</strong>.</p>
+<p>En este primer paso del laboratorio debemos esperar a que los componentes de construcción de la aplicación se desplieguen. Para ello, en la sección <strong>Deployment summary</strong> debemos esperar a que el estado de la aplicación <strong>&lt;TU-NOMBRE&gt;-dev-build</strong> en Argo CD esté <strong>Synced</strong> y <strong>Healthy</strong>.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -174,7 +174,7 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-El nombre de la aplicación será el nombre que has introducido previamente con el sufijo dev-build
+El nombre de la aplicación se corresponderá con tu nombre y apellidos que has introducido previamente con el sufijo <code>dev-build</code>
 </td>
 </tr>
 </table>
@@ -182,11 +182,11 @@ El nombre de la aplicación será el nombre que has introducido previamente con 
 </blockquote>
 </div>
 <div class="paragraph">
-<p>Una vez la aplicación de ArgoCD esté en <strong>Healthy</strong>, ve al siguiente paso <strong>Continuous Integration (CI)</strong>.</p>
+<p>Una vez la aplicación de Argo CD esté en <strong>Healthy</strong>, puedes continuar al siguiente paso <strong>Continuous Integration (CI)</strong>.</p>
 </div>
 <nav class="pagination">
   <span class="prev"><a href="01-golden-path.html" class="query-params-link">Golden Path</a></span>
-  <span class="next"><a href="03-ci.html" class="query-params-link">Continous Integration (CI)</a></span>
+  <span class="next"><a href="03-ci.html" class="query-params-link">Continuous Integration (CI)</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">

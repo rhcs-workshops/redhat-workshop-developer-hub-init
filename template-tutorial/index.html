@@ -74,16 +74,16 @@
     <a class="nav-link" href="01-golden-path.html">Golden Path</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="02-explorar-aplicacion.html">Explorar aplicación</a>
+    <a class="nav-link" href="02-explorar-aplicacion.html">Explorando la aplicación</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="03-ci.html">Continous Integration (CI)</a>
+    <a class="nav-link" href="03-ci.html">Continuous Integration (CI)</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="04-verificar-ci.html">Verificar CI</a>
+    <a class="nav-link" href="04-verificar-ci.html">Verificando CI</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="05-dev-aplicacion.html">Probar aplicación en desarrollo</a>
+    <a class="nav-link" href="05-dev-aplicacion.html">Probando la aplicación</a>
   </li>
 </ul>
   </li>
@@ -124,30 +124,30 @@
 <article class="doc">
 <h1 class="page">Introducción</h1>
 <div class="paragraph">
-<p>Golden Paths son un concepto básico y fundamental en las plataformas de desarrollo interno (Internal Developer Platform - IDP) bien diseñadas.</p>
+<p>Golden Paths, o Software Templates, son un concepto básico y fundamental en las plataformas de desarrollo interno (Internal Developer Platform - IDP) bien diseñadas.</p>
 </div>
 <div class="paragraph">
-<p>La idea principal de este concepto es que la plataforma ofrece un modelo previamente diseñado y respaldado para crear e implementar un software en particular. Si un equipo puede trabajar en este modelo porque los requisitos así lo permiten, es entonces cuando se benefecia de este modelo previamente diseñado en su evolución hacia Producción sin necesidad de aprendizaje de los detalles de la tecnología que utiliza.</p>
+<p>La idea principal de este concepto es que la plataforma ofrece un modelo previamente diseñado y respaldado para crear e implementar un software en particular. Si un equipo puede trabajar en este modelo porque los requisitos así lo permiten, es entonces cuando se benefecia de ese modelo previamente diseñado en su evolución hacia producción sin necesidad de un conocimiento de los detalles de la tecnología y componentes que utiliza.</p>
 </div>
 <div class="paragraph">
-<p>Este enfoque acelera los casos de uso típicos del desarrollo de aplicaciones (onboarding de un nuevo miembro del equipo, onboarding de una nueva aplicación), y al mismo tiempo incorpora las best-practices que se han aprendido en el pasado. Cuanto más sofisticado sea este Golden Path, se adoptará más, proporcionará una mayor uniformidad de configuración y comportamiento de todas las aplicaciones que lo utilicen.</p>
+<p>Este enfoque acelera los casos de uso típicos del desarrollo de aplicaciones (onboarding de un nuevo miembro del equipo, onboarding de una nueva aplicación), y al mismo tiempo incorpora las buenas practicas que se han aprendido en el pasado. Cuanto más sofisticado sea este Golden Path, se adoptará más, proporcionando una mayor uniformidad de configuración y comportamiento de todas las aplicaciones que lo utilicen.</p>
 </div>
 <div class="paragraph">
-<p>Dicho esto, ¿qué es un Golden Path? Un Golden Path tendrá, como mínimo, los siguientes ingredientes:</p>
+<p>Dicho esto, ¿qué forma un Golden Path? Un Golden Path tendrá, como mínimo, los siguientes ingredientes:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Un repositorio que se puede utilizar como plantilla. Puede ser un simple <em>Hello World</em>, pero con las configuraciones básicas necesarias para que un desarrollador puede comenzar rápidamente con los IDEs de la compañía e incorporar las best-practices para el desarrollo del código de la aplicación.</p>
+<p>Un repositorio de código que se puede utilizar como plantilla. Puede ser un simple <em>Hello World</em>, pero con las configuraciones básicas necesarias para que un desarrollador puede comenzar rápidamente con los IDEs de la compañía e incorporar las buenas practicas para el desarrollo del código de la aplicación.</p>
 </li>
 <li>
-<p>Un pipeline que utilice el repositorio del desarrollador, construya, envíe y propague los artefactos entre los entornos hasta Producción. El pipeline tendrá todos los pasos necesarios por la organización para confíar plenamente en el código que se ha compilado y propagado entre los diferentes entornos.</p>
+<p>Un pipeline que construye, empaquete, despliegue y propague los artefactos entre los entornos hasta producción. El pipeline tendrá todos los pasos necesarios por la organización confie plenamente en el código compilado y propagado entre los diferentes entornos.</p>
 </li>
 <li>
-<p>Un conjunto de manifiestos declarativos para desplegar la aplicación. Pueden ser Helm charts, configuración de Kustomize, o cualquier otra forma de configuración descriptiva.</p>
+<p>Un conjunto de manifiestos declarativos para desplegar la aplicación en los entornos. Pueden ser Helm charts, configuración de Kustomize, o cualquier otra forma de configuración descriptiva.</p>
 </li>
 <li>
-<p>Incorpora observabilidad. Observabilidad (logs, trazas, métricas y alertas) es una capacidad fundamental que debe proporcionar la plataforma. Se debe definir exactamente qué observar en una aplicación específica como parte del manifiesto de implementación. Un Golden Path debe proporcionar valores predeterminados razonables para las configuraciones de observabilidad.</p>
+<p>Integración de mecanismos de observabilidad de la aplicación con la platforma. La Observabilidad (logs, trazas, métricas y alertas) es una capacidad fundamental que debe proporcionar la plataforma. Se debe definir exactamente qué observar en una aplicación específica como parte del manifiesto de implementación. Un Golden Path debe proporcionar valores predeterminados razonables para las configuraciones de observabilidad.</p>
 </li>
 </ul>
 </div>

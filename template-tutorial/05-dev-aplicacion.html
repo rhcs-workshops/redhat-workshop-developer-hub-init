@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Probar aplicacion en desarrollo :: Summit Connect Madrid - Developer Hub</title>
+    <title>Probando la aplicacion :: Summit Connect Madrid - Developer Hub</title>
     <link rel="canonical" href="https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/template-tutorial/05-dev-aplicacion.html">
     <link rel="prev" href="04-verificar-ci.html">
     <meta name="generator" content="Antora 3.0.0">
@@ -74,16 +74,16 @@
     <a class="nav-link" href="01-golden-path.html">Golden Path</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="02-explorar-aplicacion.html">Explorar aplicación</a>
+    <a class="nav-link" href="02-explorar-aplicacion.html">Explorando la aplicación</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="03-ci.html">Continous Integration (CI)</a>
+    <a class="nav-link" href="03-ci.html">Continuous Integration (CI)</a>
   </li>
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="04-verificar-ci.html">Verificar CI</a>
+    <a class="nav-link" href="04-verificar-ci.html">Verificando CI</a>
   </li>
   <li class="nav-item is-current-page" data-depth="1">
-    <a class="nav-link" href="05-dev-aplicacion.html">Probar aplicación en desarrollo</a>
+    <a class="nav-link" href="05-dev-aplicacion.html">Probando la aplicación</a>
   </li>
 </ul>
   </li>
@@ -115,24 +115,21 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Summit Connect Madrid - Developer Hub</a></li>
-    <li><a href="05-dev-aplicacion.html">Probar aplicación en desarrollo</a></li>
+    <li><a href="05-dev-aplicacion.html">Probando la aplicación</a></li>
   </ul>
 </nav>
   <div class="edit-this-page"><a href="https://github.com/rhcs-workshops/redhat-workshop-developer-hub-init/edit/master/documentation/modules/ROOT/pages/05-dev-aplicacion.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Probar aplicacion en desarrollo</h1>
+<h1 class="page">Probando la aplicacion</h1>
 <div class="ulist">
 <ul>
 <li>
 <p>Cambia a la pestaña <strong>Topology</strong>, verás que el Pod está rodeado por un círculo azul, esto indica que se está ejecutando correctamente.</p>
 </li>
 <li>
-<p>Para abrir la aplicación, haz clic en el icono que se encuentra en la esquina derecha del Pod.</p>
-</li>
-<li>
-<p>Tu aplicación se abrirá en una nueva pestaña del navegador.</p>
+<p>Para abrir la aplicación, haz clic en el icono que se encuentra en la esquina derecha del Pod. Tu aplicación se abrirá en una nueva pestaña del navegador.</p>
 </li>
 </ul>
 </div>
@@ -142,7 +139,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Prueba el cambio que has implementado haciendo clic en el link "hello"; deberías ver que la API devuelve "Hello from RHDH" como se esperaba.</p>
+<p>Prueba el cambio que has implementado haciendo clic en el link <code>hello</code>. El resultado de la API es <code>Hello from RHDH</code> como se esperaba.</p>
 </li>
 </ul>
 </div>
@@ -154,10 +151,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Ahora, cambia a la pestaña <strong>Overview</strong>.</p>
-</li>
-<li>
-<p>Aquí observarás que la aplicación está sincronizada y se encuentra en estado "healthy" en <strong>ArgoCD</strong>.</p>
+<p>Ahora, cambia a la pestaña <strong>Overview</strong>. Aquí observarás que la aplicación está sincronizada y se encuentra en estado <code>healthy</code> en <strong>Argo CD</strong>.</p>
 </li>
 </ul>
 </div>
@@ -169,13 +163,10 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Ve a la pestaña <strong>Image Registry</strong>.</p>
+<p>Ve a la pestaña <strong>Image Registry</strong>, donde podrás ver el estado actual de las imágenes creadas para la aplicación.</p>
 </li>
 <li>
-<p>El <strong>Registry</strong> debería contener las imágenes.</p>
-</li>
-<li>
-<p>Puedes ver los resultados del escaneo de vulnerabilidades para la imagen taggeada como <strong>latest</strong> haciendo clic en el enlace que aparece en la columna <strong>Security Scan</strong>.</p>
+<p>Puedes ver los resultados del escaneo de vulnerabilidades para la imagen identificada con el tag <strong><code>latest</code></strong> haciendo clic en el enlace que aparece en la columna <strong>Security Scan</strong>.</p>
 </li>
 </ul>
 </div>
@@ -199,10 +190,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Por último, cambia a la pestaña <strong>Docs</strong>.</p>
-</li>
-<li>
-<p>Aquí puedes comprobar que la documentación ha sido actualizada con los cambios que has hecho.</p>
+<p>Por último, cambia a la pestaña <strong>Docs</strong>, donde podrás comprobar que la documentación ha sido actualizada con los cambios que has hecho.</p>
 </li>
 </ul>
 </div>
@@ -211,8 +199,15 @@
 <img src="_images/dev_6.png" alt="dev 6">
 </div>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>Enhorabuena, has sido capaz de terminar este laboratorio de introducción a Red Hat Developer Hub.</p>
+</li>
+</ul>
+</div>
 <nav class="pagination">
-  <span class="prev"><a href="04-verificar-ci.html" class="query-params-link">Verificar CI</a></span>
+  <span class="prev"><a href="04-verificar-ci.html" class="query-params-link">Verificando CI</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
