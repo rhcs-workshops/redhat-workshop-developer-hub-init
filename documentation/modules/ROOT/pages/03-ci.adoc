@@ -1,47 +1,13 @@
 = Continuous Integration (CI) en acción
 include::_attributes.adoc[]
 
-- Comencemos por modificar el repositorio de la aplicación haciendo clic en el enlace **View Source**.
+Para construir la aplicación debemos hacer un cambio en el repositorio de código que desencadenará la ejecución del pipeline. Para ello, realizaremos un cambio en la documentación.
+
+- Comencemos por acceder al repositorio de la aplicación haciendo clic en el enlace **View Source**.
 
 image::CI_1.png[]
 
 - Esto te llevará al repositorio de código de la aplicación de GitLab en una nueva pestaña.
-
-- Para completar la tarea, vas a realiza tres cosas:
-
-1. Actualizar el método `Hello` en la clase `ExampleResource.java`.
-
-2. Actualizar el test unitario (clase `ExampleResourceTest.java`) que verifica la salida de este método.
-
-3. Actualizar la documentación para reflejar el cambio.
-
-- En tu repositorio de la aplicación expande las carpetas **src → main → java/org.redhat.janus**, y luego abre el archivo **`ExampleResource.java`**.
-
-- Pulsa en editar.
-
-image::CI_2.png[]
-
-- En la línea 14, sustituye el mensaje del método hello de `Hello RESTEasy` por `Hello from RHDH`.
-
-image::CI_3.png[]
-
-- Vamos a actualizar la documentación con este cambio. Introduce el mensaje de commit `Update my application` y haz clic en el botón **Commit changes**.
-
-image::CI_4.png[]
-
-- A continuación, actualiza el test unitario para este método.
-
-- Expande las carpetas **src → test/java/org.redhat.janus**, y abre el archivo **`ExampleResourceTest.java`**.
-
-- Pulsa en editar.
-
-- En la línea 18, cambia el texto `Hello RESTEasy` por `Hello from RHDH`.
-
-image::CI_5.png[]
-
-- De nuevo, vamos a actualizar haciendo clic en el botón **Commit changes**.
-
-- Por último, vamos a actualizar la documentación con nuestros últimos cambios.
 
 - Desde la raiz del repositorio, despliega la carpeta `docs` y abre el archivo **index.md**.
 
@@ -49,11 +15,11 @@ image::CI_6.png[]
 
 - Pulsa en editar.
 
-- Al final del documento, añade el siguiente texto: `Release 1.0: Update to ExampleResource.hello() method to return 'Hello from RHDH`.
+- Al final del documento, añade el siguiente texto: `Red Hat Summit Connect`.
 
 image::CI_7.png[]
 
-- Actualiza la documentación haciendo commit de nuevo en el botón **Commit changes**.
+- Actualiza la documentación haciendo click en el botón **Commit changes**.
 
 - Ahora has implementado con éxito tu cambio y actualizado la documentación mediante un commit.
 
