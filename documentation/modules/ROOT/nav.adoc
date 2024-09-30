@@ -1,5 +1,4 @@
 * xref:01-golden-path.adoc[Software Template]
-* xref:02-explorar-aplicacion.adoc[Explorando la aplicación]
 * xref:03-ci.adoc[Continuous Integration (CI)]
 * xref:04-verificar-ci.adoc[Verificando CI]
 * xref:05-dev-aplicacion.adoc[Probando la aplicación]

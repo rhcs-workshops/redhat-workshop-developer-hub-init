@@ -1,6 +1,8 @@
 = Continuous Integration (CI) en acción
 include::_attributes.adoc[]
 
+Este es el dashboard que te permite monitorizar el estado de la aplicación así como enlaces a las herramientas de desarrollo.
+
 Para construir la aplicación debemos hacer un cambio en el repositorio de código que desencadenará la ejecución del pipeline. Para ello, realizaremos un cambio en la documentación.
 
 - Comencemos por acceder al repositorio de la aplicación haciendo clic en el enlace **View Source**.
