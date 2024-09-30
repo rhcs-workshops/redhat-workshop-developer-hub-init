@@ -1,6 +1,10 @@
 = Bonus Track
 include::_attributes.adoc[]
 
+- Ahora, cambia a la pestaña **Overview**. Aquí observarás que la aplicación está sincronizada y se encuentra en estado `healthy`.
+
+image::dev_3.png[]
+
 - Ve a la pestaña *Image Registry*, donde podrás ver el estado actual de las imágenes creadas para la aplicación.
 
 - Puedes ver los resultados del escaneo de vulnerabilidades para la imagen identificada con el tag **`latest`** haciendo clic en el enlace que aparece en la columna **Security Scan**.
