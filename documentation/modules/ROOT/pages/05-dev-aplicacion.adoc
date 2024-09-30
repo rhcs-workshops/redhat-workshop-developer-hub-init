@@ -11,10 +11,6 @@ image:dev_1.png[]
 
 image::dev_2.png[]
 
-- Ahora, cambia a la pestaña **Overview**. Aquí observarás que la aplicación está sincronizada y se encuentra en estado `healthy`.
-
-image::dev_3.png[]
-
 En menos de 5 minutos, hemos conseguido desplegar una aplicación nueva con todas las fases automatizadas gracias a Software Templates de Red Hat Developer Hub.
 
 Si no hay nadie esperando, aprovecha y pasa al Bonus Track para realizar tareas adicionales.
