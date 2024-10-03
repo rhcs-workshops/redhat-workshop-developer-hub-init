@@ -1,4 +1,4 @@
-= Introducción
+= Como crear una aplicación con Red Hat Developer Hub
 :page-layout: home
 :!sectids:
 
