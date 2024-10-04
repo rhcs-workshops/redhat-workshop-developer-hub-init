@@ -1,4 +1,4 @@
-= Introducción
+= Creación y despliegue de una aplicación desde cero con Red Hat Developer Hub
 :page-layout: home
 :!sectids:
 
