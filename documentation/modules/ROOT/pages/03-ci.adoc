@@ -17,7 +17,15 @@ image::CI_6.png[]
 
 - Pulsa en editar.
 
-- Al final del documento, añade el siguiente texto: `Red Hat Summit Connect`.
+image::CI_2.png[]
+
+- Al final del documento, añade el siguiente texto:
++
+[.console-input]
+[source,adoc]
+----
+Red Hat Summit Connect
+----
 
 image::CI_7.png[]
 

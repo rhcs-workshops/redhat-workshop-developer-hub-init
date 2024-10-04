@@ -11,6 +11,10 @@ image:dev_1.png[]
 
 image::dev_2.png[]
 
-En menos de 5 minutos, hemos conseguido desplegar una aplicación nueva con todas las fases automatizadas gracias a Software Templates de Red Hat Developer Hub.
+- El cambio en la documentación lo podras ver en la pestaña **Docs**
 
-Si no hay nadie esperando, aprovecha y pasa al Bonus Track para realizar tareas adicionales.
+image::dev_6.png[]
+
+= Conclusiones
+
+En menos de 5 minutos, hemos conseguido desplegar una aplicación nueva con todas las fases automatizadas gracias a Software Templates de Red Hat Developer Hub.
