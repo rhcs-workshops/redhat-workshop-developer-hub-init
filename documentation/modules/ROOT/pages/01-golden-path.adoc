@@ -1,54 +1,22 @@
 = Desplegando tu primera Software Template
 include::_attributes.adoc[]
-
-== Objetivos
-- Como nuevo desarrollador, se te ha pedido crear un proyecto para implementar una aplicación basada en el framework Quarkus.
-
-- Para hacerlo, vas a usar una Software Template preconfigurada, que agilizará tu proceso de creación.
-
-// 1. Se crearán dos repositorios en GitLab, uno para el código fuente de la aplicación y otro para los Manifiestos de despliegue en OpenShift.
-
-// 2. Se definirán en Argo CD la aplicación y todos los recursos necesarios para su despliegue en el clúster de OpenShift destino.
-
-// 3. En este ejemplo, estamos utilizando Helm charts como método para desplegar la aplicación con Argo CD. Y un pipeline de CI en Tekton para compilar, empaquetar y generar la imágen de la aplicación.
-
-La siguiente imagen representa todos los elementos que va a desplegar el Software Template:
-
-image::GPT_Flow.png[]
-
 == Demo
-- Pincha en el bookmark del cluster de Developer Hub o https://backstage-backstage.apps.cluster-n9qvt.n9qvt.sandbox1467.opentlc.com[aqui] para acceder a Red Hat Developer Hub. Accederás a la página de Developer Hub con un usuario ya logueado.
 
-- Vamos al catálogo de Software Template, haz clic en la opción *Create...* en el menú lateral.
+- Pincha en el bookmark del cluster de Developer Hub o https://backstage-backstage.apps.cluster-n9qvt.n9qvt.sandbox1467.opentlc.com[aqui] para acceder a Red Hat Developer Hub. Accederás a la página principal con un usuario ya logueado.
 
-- Se te mostrarán todas las Software Templates que el equipo de Arquitectura y Plataforma ha configurado para ti.
+- Vamos a la opción *Create...* en el menú lateral donde se mostrarán todas las Software Templates que el equipo de Arquitectura y Plataforma ha configurado para ti.
 
 - Busca la Software Template denominada **Quarkus Service with ArgoCD and a Tekton Pipeline** y haz click en el botón *Choose*, ubicado en la parte inferior derecha del recuadro.
 
 image::Choose_GPT.png[]
 
-- A continuación, se te pedirá que completes un formulario con la información necesaria para tu nueva aplicación.
+- A continuación, modifica sólo el campo *Name* con tu nombre y apellidos *en minúscula* y usando el guión (`-`) como separador de espacios y haz clic en el botón *Next* para continuar.
 
-- Modifica el campo *Name* con tu nombre y apellidos *en minúscula* y usando el guión (`-`) como separador de espacios.
-
-> [WARNING]
-> El valor del campo (tu nombre y apellidos) deben ser en minúscula.
-
-- Mantén el resto de valores por defecto y haz clic en el botón *Next* para continuar.
-
-image::GPT_form_1.png[]
-
-- En el segundo formulario, selecciona `Quay` como servicio de Image Registry.
+- En el segundo formulario, selecciona `Quay` como servicio de Image Registry y haz clic en el botón *Next* para continuar.
 
 image::GPT_form_2.png[]
 
-- Mantén el resto de valores por defecto y haz clic en el botón *Next* para continuar.
-
-- En el tercer y último formulario, verás valores predeterminados para el servidor GitLab que alojará los repositorios de código fuente y configuración de tu aplicación.
-
-image::GPT_form_3.png[]
-
-- Mantén los valores por defecto y haz clic en el botón *Review* para continuar.
+- En el tercer y último formulario, no has de hacer nada, revisa los valores predeterminados para el servidor GitLab y haz clic en el botón *Review* para continuar.
 
 - Se te presentará un resumen. Ahora puedes revisar que todo esté en orden y haz clic en el botón *Create*.
 

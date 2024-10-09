@@ -5,16 +5,18 @@ include::_attributes.adoc[]
 
 image::CI_8.png[]
 
-- Podrás observar que se ha ejecutado el pipeline de la aplicación correspondiente a los cambios de la documentación realizados.
+- Podrás observar que se está ejecutando el pipeline de la aplicación correspondiente a los cambios de la documentación realizados.
 
-image::CI_10.png[]
-
-- Como puedes observar, el pipeline construye el artefacto, construye la imagen y la publica en Quay, y actualiza el despliegue de la aplicación.
+- Como puedes observar, el pipeline construye el servicio Quarkus, construye la imagen, la publica en registro de imágenes Quay, y actualiza el despliegue de la aplicación.
 
 - Como desarrollador, no tienes que preocuparte de estos aspectos complejos.
 
 - Todos ellos están preparados mediante el Software Template, lo que garantiza un proceso de desarrollo ágil y seguro.
 // - De hecho, incluso podríamos sustituir Tekton por otra herramienta de CI, ¡y no tendrías que preocuparte por los detalles!
-- Una vez completada la ejecución de la build pipeline, revisamos el estado de nuestra aplicación.
 
 image::CI_9.png[]
+
+- Una vez se ha completado la pipeline, ¡¡¡felicidades!!! ya has logrado desplegar una aplicación Quarkus desde cero en OpenShift. 
+
+- Hasta aquí la demo, pero si dispones de un poquito más de tiempo, te invitamos a probar la aplicación que se ha desplegado y navegar por las distintas opciones del dashboard de Developer Hub.
+
