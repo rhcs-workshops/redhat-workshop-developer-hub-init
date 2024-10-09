@@ -4,4 +4,4 @@
 
 Este laboratorio es un ejemplo práctico, cómo desarrollador, usando el catálogo de plantillas de software de Red Hat Developer Hub, lanzarás un proceso que crea los diferentes entornos de desarrollo y genera los repositorios del código fuente de la aplicación con los artefactos de CI/CD.
 
-Todo esto, sin tener que abrir ningún ticket y de forma autónoma. También veras las capacidades que tiene Red Hat Developer Hub para trabajar con diferentes herramientas, como por ejemplo OpenShift, Quay, GitLab, ArgoCD o Tekton, de un modo centralizado.
+Todo esto, sin tener que abrir ningún ticket y de forma autónoma. 
