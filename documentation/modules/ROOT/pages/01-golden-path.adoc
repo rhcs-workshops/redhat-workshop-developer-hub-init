@@ -17,7 +17,7 @@ La siguiente imagen representa todos los elementos que va a desplegar el Softwar
 image::GPT_Flow.png[]
 
 == Demo
-- Pincha en el bookmark del cluster de Developer Hub o TODOURL[aqui] para acceder a Red Hat Developer Hub. Accederás a la página de Developer Hub con un usuario ya logueado.
+- Pincha en el bookmark del cluster de Developer Hub o https://backstage-backstage.apps.cluster-n9qvt.n9qvt.sandbox1467.opentlc.com[aqui] para acceder a Red Hat Developer Hub. Accederás a la página de Developer Hub con un usuario ya logueado.
 
 - Vamos al catálogo de Software Template, haz clic en la opción *Create...* en el menú lateral.
 
